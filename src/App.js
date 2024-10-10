@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
 import Header from "./Header";
+import PersonalProfile from "./PersonalProfile";
+import WorkExperience from "./WorkExperience";
+import Skills from "./Skills";
+import Education from "./Education";
 
 class App extends Component {
   constructor(props) {
@@ -56,6 +60,14 @@ class App extends Component {
     return(
       <div>
         <Header personInfo={this.state.personInfo} contactInfo={this.state.contactInfo}></Header>
+        <hr></hr>
+        <PersonalProfile personalProfile={this.state.personalProfile}></PersonalProfile>
+        <hr></hr>
+        <WorkExperience workExperience={this.state.workExperience}></WorkExperience>
+        <hr></hr>
+        <Skills keySkills={this.state.keySkills}></Skills>
+        <hr></hr>
+        <Education education={this.state.education}></Education>
       </div>
     )
   }
