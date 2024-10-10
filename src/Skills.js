@@ -5,7 +5,7 @@ class Skills extends Component {
     return (
       <div className="hd4">
         <div className="hd4_c1">
-          <p>{this.props.keySkills.section}</p>
+          <p><i><b>{this.props.keySkills.section}</b></i></p>
         </div>
         <div className="hd4_c2">
           <p>

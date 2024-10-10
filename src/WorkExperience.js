@@ -5,7 +5,7 @@ class WorkExperience extends Component{
         return(
             <div className="hd3">
                 <div className="hd3_c1">
-                    <p>{this.props.workExperience.section}</p>
+                    <p><i><b>{this.props.workExperience.section}</b></i></p>
                 </div>
                 <div className="hd3_c2">
                 <p><b>{this.props.workExperience.job1}</b></p>

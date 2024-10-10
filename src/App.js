@@ -60,7 +60,7 @@ class App extends Component {
     return(
       <div>
         <Header personInfo={this.state.personInfo} contactInfo={this.state.contactInfo}></Header>
-        <hr></hr>
+        <hr size="10" color="gold"></hr>
         <PersonalProfile personalProfile={this.state.personalProfile}></PersonalProfile>
         <hr></hr>
         <WorkExperience workExperience={this.state.workExperience}></WorkExperience>

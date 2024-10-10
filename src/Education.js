@@ -5,7 +5,7 @@ class Education extends Component{
         return(
             <div className="hd5">
                 <div className="hd5_c1">
-                    <p>{this.props.education.section}</p>
+                    <p><i><b>{this.props.education.section}</b></i></p>
                 </div>
                 <div className="hd5_c2">
                     <p>{this.props.education.uni}</p>

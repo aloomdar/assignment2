@@ -5,7 +5,7 @@ class PersonalProfile extends Component{
         return(
             <div className="hd2">
                 <div className="hd2_c1">
-                    <p>{this.props.personalProfile.section}</p>
+                    <p><i><b>{this.props.personalProfile.section}</b></i></p>
                 </div>
                 <div className="hd2_c2">
                     <p>{this.props.personalProfile.description}</p>
